@@ -1,6 +1,3 @@
-// Pedido.h
-// Um pedido: o que foi pedido, de qual restaurante, e a rota.
-// Agora é uma CLASSE: os atributos são privados e só mudam por métodos.
 
 #ifndef PEDIDO_H
 #define PEDIDO_H
