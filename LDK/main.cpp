@@ -236,7 +236,7 @@ void calcularCusto(Sistema& s) {
          << "  TOTAL:            R$ " << p.custo << "\n";
 
     string r = lerLinha("Confirmar entrega? (s/n): ");
-    s.filaPedidos.pop();                          // sai da fila (FIFO)
+    s.filaPedidos.pop();                          // sai da fila 
     p.concluido = !r.empty() && (r[0] == 's' || r[0] == 'S');
     s.historico.push(p);                          // vai para o topo da PILHA do histórico
     cout << (p.concluido ? "Pedido concluido!\n" : "Pedido cancelado.\n");
