@@ -1,6 +1,4 @@
 
-// Localizacao.h
-
 #ifndef LOCALIZACAO_H
 #define LOCALIZACAO_H
 
