@@ -23,7 +23,7 @@ private:
     // -1 significa "sem anterior": é a própria origem ou um nó que não foi alcançado.
     std::vector<int> anterior;
 
-    // O algoritmo em si (chamado pelo construtor)
+    // Roda o Dijkstra a partir de 'origem' (só o construtor chama).
     void executar(int origem);
 
 public:
