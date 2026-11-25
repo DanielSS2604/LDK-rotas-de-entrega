@@ -1,6 +1,3 @@
-// SistemaEntregas.h
-// Classe principal: guarda o estado do sistema (antiga struct Sistema)
-// e tem como MÉTODOS todas as opções do menu (antigas funções do main).
 
 #ifndef SISTEMA_ENTREGAS_H
 #define SISTEMA_ENTREGAS_H
