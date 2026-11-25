@@ -1,7 +1,4 @@
 
-// Pedido.h
-// Um pedido: o que foi pedido, de qual restaurante, e a rota.
-
 #ifndef PEDIDO_H
 #define PEDIDO_H
 
