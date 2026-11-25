@@ -1,10 +1,6 @@
 
-// Grafo.cpp
-// Implementação da classe Grafo.
-
 #include "Grafo.h"
 
-#include <cmath>
 #include <fstream>
 #include <iomanip>
 #include <iostream>
@@ -22,20 +18,6 @@ std::vector<std::string> Grafo::dividirLinha(const std::string& linha) {
         campos.push_back(campo);
     }
     return campos;
-}
-
-double Grafo::haversine(double lat1, double lon1, double lat2, double lon2) {
-    const double R = 6371000.0;                 // raio da Terra em metros
-    const double PI = 3.14159265358979323846;
-    auto rad = [PI](double g) { return g * PI / 180.0; };
-
-    double dLat = rad(lat2 - lat1);
-    double dLon = rad(lon2 - lon1);
-    double a = std::sin(dLat / 2) * std::sin(dLat / 2) +
-               std::cos(rad(lat1)) * std::cos(rad(lat2)) *
-               std::sin(dLon / 2) * std::sin(dLon / 2);
-    double c = 2 * std::atan2(std::sqrt(a), std::sqrt(1 - a));
-    return R * c;
 }
 
 // ---------- Construção ----------
@@ -105,21 +87,16 @@ bool Grafo::carregarArestas(const std::string& caminho) {
         if (linha.empty() || linha == "\r") continue;
 
         auto c = dividirLinha(linha);
-        if (c.size() < 2) {
-            std::cerr << "Aviso: linha " << numLinha << " ignorada (campos faltando)\n";
+        if (c.size() < 3 || c[2].empty()) {
+            std::cerr << "Aviso: linha " << numLinha << " ignorada (sem distancia)\n";
             continue;
         }
         try {
             int a = std::stoi(c[0]);
             int b = std::stoi(c[1]);
-            double peso = (c.size() >= 3 && !c[2].empty()) ? std::stod(c[2]) : 0.0;
+            double peso = std::stod(c[2]);
 
-            // Peso 0 ou ausente: calcula pela distância em linha reta
-            if (peso <= 0 && idValido(a) && idValido(b)) {
-                peso = haversine(locais[a].getLat(), locais[a].getLon(),
-                                 locais[b].getLat(), locais[b].getLon());
-            }
-            if (!adicionarAresta(a, b, peso)) {
+            if (peso <= 0 || !adicionarAresta(a, b, peso)) {
                 std::cerr << "Aviso: linha " << numLinha << " ignorada (aresta invalida)\n";
             }
         } catch (const std::exception&) {
