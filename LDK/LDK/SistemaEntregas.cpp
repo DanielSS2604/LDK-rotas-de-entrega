@@ -1,4 +1,3 @@
-// SistemaEntregas.cpp
 
 #include "SistemaEntregas.h"
 
