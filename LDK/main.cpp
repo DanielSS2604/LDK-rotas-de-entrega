@@ -142,7 +142,7 @@ void buscarRestaurante(Sistema& s) {
     if (!s.cliente.temLocal()) { cout << "Cadastre sua localizacao primeiro (opcao 1).\n"; return; }
     if (s.pratoEscolhido.empty()) { cout << "Escolha um prato primeiro (opcao 2).\n"; return; }
 
-    // acha direto os restaurantes que servem o prato (sem varrer todos)
+    // acha direto os restaurantes que servem o prato
     const auto* ids = s.indicePratos.buscar(s.pratoEscolhido);
     if (!ids) { cout << "Nenhum restaurante serve esse prato.\n"; return; }
 
