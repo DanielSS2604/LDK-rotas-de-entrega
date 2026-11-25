@@ -1,0 +1,115 @@
+id;nome;tipo;lat;lon
+0;Brasilia Shopping;shopping;-15.786788;-47.889030
+1;Conjunto Nacional;shopping;-15.791074;-47.883259
+2;Patio Brasil Shopping;shopping;-15.796109;-47.891994
+3;Venancio Shopping;shopping;-15.795535;-47.892663
+4;Liberty Mall;shopping;-15.786625;-47.884187
+5;Shopping ID;shopping;-15.786946;-47.890234
+6;Fashion Mall;shopping;-15.802150;-47.893861
+7;Centro Comercial Boulevard (CONIC);shopping;-15.795737;-47.884854
+8;Jardim Boulevard Shopping;shopping;-15.732729;-47.899309
+9;Shopping Ave Maria;shopping;-15.774208;-47.888619
+10;Shopping Plaza Norte;shopping;-15.755349;-47.887773
+11;Shopping Asa Sul;shopping;-15.835724;-47.916269
+12;Congresso Nacional do Brasil;orgao_publico;-15.799679;-47.864216
+13;Palacio do Planalto;orgao_publico;-15.799138;-47.860677
+14;Supremo Tribunal Federal;orgao_publico;-15.802236;-47.861925
+15;Palacio Itamaraty;orgao_publico;-15.800780;-47.867295
+16;Ministerio da Fazenda;orgao_publico;-15.795869;-47.869677
+17;Ministerio da Saude;orgao_publico;-15.759731;-47.891898
+18;Ministerio da Educacao;orgao_publico;-15.794797;-47.872954
+19;Palacio da Justica;orgao_publico;-15.797228;-47.865915
+20;Tribunal Superior Eleitoral;orgao_publico;-15.810296;-47.871256
+21;Superior Tribunal de Justica;orgao_publico;-15.808277;-47.867341
+22;Tribunal de Contas da Uniao;orgao_publico;-15.804020;-47.862747
+23;Banco Central do Brasil;orgao_publico;-15.803377;-47.885210
+24;Palacio do Buriti;orgao_publico;-15.783995;-47.908058
+25;Camara Legislativa do DF;orgao_publico;-15.786325;-47.911379
+26;Tribunal Regional Federal da 1a Regiao - Sede;orgao_publico;-15.800027;-47.880092
+27;Tribunal Superior do Trabalho;orgao_publico;-15.810961;-47.868287
+28;Procuradoria da Republica no Distrito Federal;orgao_publico;-15.813598;-47.885834
+29;Ministerio da Economia;orgao_publico;-15.799163;-47.871736
+30;Catedral Metropolitana Nossa Senhora Aparecida;turistico;-15.798332;-47.875557
+31;Torre de TV;turistico;-15.790688;-47.892964
+32;Teatro Nacional Claudio Santoro;turistico;-15.791960;-47.880344
+33;Memorial JK;turistico;-15.784162;-47.913420
+34;Parque da Cidade Dona Sarah Kubitschek;turistico;-15.799968;-47.909492
+35;Planetario de Brasilia Luiz Cruls;turistico;-15.787673;-47.898929
+36;Museu Nacional Honestino Guimaraes;turistico;-15.797393;-47.878225
+37;Panteao da Patria e da Libertade Tancredo Neves;turistico;-15.801643;-47.860208
+38;Espaco Cultural Lucio Costa - Maquete de Brasilia;turistico;-15.801094;-47.861678
+39;Praca dos Tres Poderes;turistico;-15.801187;-47.861455
+40;Biblioteca Nacional de Brasilia Leonel de Moura Brizola;turistico;-15.796724;-47.880219
+41;Palacio da Alvorada;turistico;-15.792301;-47.822138
+42;Memorial dos Povos Indigenas;turistico;-15.784839;-47.911390
+43;Igrejinha Nossa Senhora de Fatima;turistico;-15.813973;-47.903762
+44;Tunel do Ficus - Arvore dos Desejos;turistico;-15.815594;-47.904184
+45;Museu de Arte de Brasilia (MAB);turistico;-15.787759;-47.833350
+46;Santuario Dom Bosco;turistico;-15.800565;-47.894738
+47;UnB - Universidade de Brasilia;turistico;-15.763303;-47.870219
+48;Eu Amo Brasilia;turistico;-15.790957;-47.891925
+49;Complexo Cultural da Republica;turistico;-15.796946;-47.879158
+50;Rodoviaria do Plano Piloto;transporte;-15.793835;-47.882733
+51;SQN 102;quadra;-15.781918;-47.882832
+52;SQN 104;quadra;-15.775584;-47.882969
+53;SQN 106;quadra;-15.769412;-47.883911
+54;SQN 108;quadra;-15.763505;-47.885962
+55;SQN 110;quadra;-15.757109;-47.887821
+56;SQN 112;quadra;-15.750971;-47.889795
+57;SQN 114;quadra;-15.744873;-47.891802
+58;SQN 116;quadra;-15.738486;-47.893835
+59;SQN 202;quadra;-15.781919;-47.878381
+60;SQN 204;quadra;-15.775107;-47.878870
+61;SQN 206;quadra;-15.769129;-47.879997
+62;SQN 208;quadra;-15.761994;-47.881713
+63;SQN 210;quadra;-15.755912;-47.884031
+64;SQN 212;quadra;-15.750068;-47.885683
+65;SQN 214;quadra;-15.743686;-47.887796
+66;SQN 216;quadra;-15.737480;-47.889631
+67;SQN 302;quadra;-15.782145;-47.885536
+68;SQN 304;quadra;-15.776079;-47.885968
+69;SQN 306;quadra;-15.769957;-47.887010
+70;SQN 308;quadra;-15.764164;-47.888533
+71;SQN 310;quadra;-15.757801;-47.890718
+72;SQN 312;quadra;-15.752024;-47.892429
+73;SQN 314;quadra;-15.745596;-47.894484
+74;SQN 316;quadra;-15.739402;-47.896438
+75;SQN 402;quadra;-15.781818;-47.875467
+76;SQN 404;quadra;-15.774984;-47.876140
+77;SQN 406;quadra;-15.768582;-47.877003
+78;SQN 408;quadra;-15.761447;-47.878945
+79;SQN 410;quadra;-15.755210;-47.881155
+80;SQN 412;quadra;-15.749350;-47.882942
+81;SQN 416;quadra;-15.736809;-47.886874
+82;SQS 102;quadra;-15.803626;-47.889558
+83;SQS 104;quadra;-15.808591;-47.894258
+84;SQS 106;quadra;-15.813030;-47.898764
+85;SQS 108;quadra;-15.816664;-47.904064
+86;SQS 110;quadra;-15.820689;-47.909149
+87;SQS 112;quadra;-15.824581;-47.914685
+88;SQS 114;quadra;-15.828689;-47.919900
+89;SQS 116;quadra;-15.832219;-47.925361
+90;SQS 202;quadra;-15.806000;-47.886544
+91;SQS 204;quadra;-15.811328;-47.891029
+92;SQS 206;quadra;-15.815265;-47.895031
+93;SQS 208;quadra;-15.819874;-47.900770
+94;SQS 210;quadra;-15.823728;-47.906512
+95;SQS 212;quadra;-15.827557;-47.911916
+96;SQS 214;quadra;-15.831521;-47.917300
+97;SQS 216;quadra;-15.835588;-47.922469
+98;SQS 302;quadra;-15.802242;-47.892252
+99;SQS 304;quadra;-15.806485;-47.896157
+100;SQS 306;quadra;-15.810924;-47.900706
+101;SQS 308;quadra;-15.814723;-47.905319
+102;SQS 310;quadra;-15.818722;-47.910706
+103;SQS 312;quadra;-15.822310;-47.916155
+104;SQS 314;quadra;-15.826129;-47.921638
+105;SQS 316;quadra;-15.829897;-47.927249
+106;SQS 402;quadra;-15.807641;-47.884087
+107;SQS 404;quadra;-15.812638;-47.888700
+108;SQS 406;quadra;-15.817768;-47.893442
+109;SQS 408;quadra;-15.822248;-47.899193
+110;SQS 410;quadra;-15.825808;-47.904775
+111;SQS 412;quadra;-15.830199;-47.910886
+112;SQS 414;quadra;-15.833751;-47.915669
+113;SQS 416;quadra;-15.837692;-47.921268

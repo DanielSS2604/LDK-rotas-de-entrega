@@ -1,0 +1,76 @@
+id;nome;id_local;pratos;avaliacao
+0;Bob's - Jardim Boulevard Shopping;8;hamburguer|sorvete;4.9
+1;Burger King - Jardim Boulevard Shopping;8;hamburguer;4.8
+2;Burger King - Shopping Plaza Norte;10;hamburguer;4.5
+3;Divino Fogao - Jardim Boulevard Shopping;8;brasileira;4.6
+4;Dunkin' - Shopping Plaza Norte;10;cafe|doces;4.1
+5;Giraffas - Brasilia Shopping;0;grelhados|brasileira|hamburguer;5.0
+6;Giraffas - Liberty Mall;4;grelhados|brasileira|hamburguer;4.3
+7;Giraffas - Jardim Boulevard Shopping;8;grelhados|brasileira|hamburguer;4.6
+8;Giraffas - Shopping Plaza Norte;10;grelhados|brasileira|hamburguer;4.5
+9;Habib's - Shopping Ave Maria;9;arabe|salgados;3.7
+10;Madero - Shopping ID;5;hamburguer|carnes;4.5
+11;Mania de Churrasco - Brasilia Shopping;0;carnes;4.1
+12;McDonald's - Brasilia Shopping;0;hamburguer;4.7
+13;McDonald's - Jardim Boulevard Shopping;8;hamburguer;4.1
+14;Outback - Venancio Shopping;3;carnes;4.0
+15;Paprica Burger - Patio Brasil Shopping;2;hamburguer;4.9
+16;Spoleto - Shopping ID;5;massa|salada;4.6
+17;Spoleto - Jardim Boulevard Shopping;8;massa|salada;4.0
+18;Starbucks - Conjunto Nacional;1;cafe|doces;4.1
+19;Starbucks - Venancio Shopping;3;cafe|doces;3.6
+20;Subway - Brasilia Shopping;0;sanduiche|salada;4.2
+21;Subway - Venancio Shopping;3;sanduiche|salada;4.5
+22;Subway - Liberty Mall;4;sanduiche|salada;4.0
+23;Subway - Shopping ID;5;sanduiche|salada;3.7
+24;Subway - Fashion Mall;6;sanduiche|salada;5.0
+25;Subway - Centro Comercial Boulevard (CONIC);7;sanduiche|salada;4.0
+26;Subway - Jardim Boulevard Shopping;8;sanduiche|salada;4.1
+27;Sushi Loko - Conjunto Nacional;1;japonesa;3.7
+28;Vivenda do Camarao - Jardim Boulevard Shopping;8;frutos_do_mar;4.0
+29;Bob's - SQN 304;68;hamburguer|sorvete;4.2
+30;Burger King - SQN 202;59;hamburguer;3.5
+31;Burger King - SQN 306;69;hamburguer;4.5
+32;Burger King - SQS 408;109;hamburguer;3.9
+33;China in Box - SQN 110;55;chinesa;4.1
+34;China in Box - SQS 406;108;chinesa;4.0
+35;Domino's - SQN 110;55;pizza;3.6
+36;Dunkin' - SQS 404;107;cafe|doces;4.6
+37;Fratello Uno - SQN 110;55;massa|pizza;4.1
+38;Fratello Uno - SQS 104;83;massa|pizza;4.9
+39;Giraffas - Banco Central do Brasil;23;grelhados|brasileira|hamburguer;4.1
+40;Giraffas - SQN 106;53;grelhados|brasileira|hamburguer;4.4
+41;Giraffas - SQN 116;58;grelhados|brasileira|hamburguer;4.8
+42;Giraffas - SQN 302;67;grelhados|brasileira|hamburguer;4.9
+43;Giraffas - SQS 106;84;grelhados|brasileira|hamburguer;4.4
+44;Giraffas - SQS 210;94;grelhados|brasileira|hamburguer;3.6
+45;Giraffas - SQS 216;97;grelhados|brasileira|hamburguer;4.1
+46;Giraffas - SQS 316;105;grelhados|brasileira|hamburguer;4.0
+47;Habib's - SQS 312;103;arabe|salgados;3.6
+48;McDonald's - Eu Amo Brasilia;48;hamburguer;4.8
+49;McDonald's - SQN 208;62;hamburguer;4.1
+50;McDonald's - SQN 306;69;hamburguer;3.7
+51;McDonald's - SQS 114;88;hamburguer;4.5
+52;McDonald's - SQS 404;107;hamburguer;4.9
+53;McDonald's - SQS 408;109;hamburguer;4.1
+54;Pizza Hut - SQS 214;96;pizza;3.8
+55;Paprica Burger - SQN 204;60;hamburguer;3.7
+56;Spoleto - Tribunal Regional Federal da 1a Regiao - Sede;26;massa|salada;4.2
+57;Spoleto - SQN 314;73;massa|salada;4.6
+58;Spoleto - SQN 408;78;massa|salada;4.7
+59;Subway - Tribunal Regional Federal da 1a Regiao - Sede;26;sanduiche|salada;4.8
+60;Subway - Igrejinha Nossa Senhora de Fatima;43;sanduiche|salada;4.4
+61;Subway - Rodoviaria do Plano Piloto;50;sanduiche|salada;3.5
+62;Subway - SQN 210;63;sanduiche|salada;4.9
+63;Subway - SQN 304;68;sanduiche|salada;3.5
+64;Subway - SQN 306;69;sanduiche|salada;4.5
+65;Subway - SQN 314;73;sanduiche|salada;4.0
+66;Subway - SQN 402;75;sanduiche|salada;4.8
+67;Subway - SQN 408;78;sanduiche|salada;4.9
+68;Subway - SQS 412;111;sanduiche|salada;3.7
+69;Sushi Loko - Banco Central do Brasil;23;japonesa;4.3
+70;Sushi Loko - SQN 214;65;japonesa;4.3
+71;Sushi Loko - SQN 306;69;japonesa;3.6
+72;Sushi Loko - SQS 214;96;japonesa;3.8
+73;Sushi San - SQS 106;84;japonesa;4.9
+74;Sushi San - SQS 212;95;japonesa;4.3

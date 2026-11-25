@@ -1,0 +1,8 @@
+CLIENTE;daniel;61
+PEDIDO;1;Daniel;brasileira;42;C;1091.40;5.46;68|67
+PEDIDO;2;Daniel;brasileira;42;E;1091.40;5.46;68|67
+PEDIDO;3;Daniel;pizza;35;E;3272.60;9.39;68|9|55
+PEDIDO;4;kenned;cafe;36;E;2320.00;7.68;84|107
+PEDIDO;5;daniel;cafe;19;E;537.10;4.47;2|3
+PEDIDO;6;teste;grelhados;5;C;4603.00;11.79;37|14|38|18|0
+PEDIDO;7;daniel;sorvete;29;E;1779.80;6.70;61|68
