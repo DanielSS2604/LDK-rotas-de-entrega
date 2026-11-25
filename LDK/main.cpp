@@ -212,7 +212,7 @@ void buscarRestaurante(Sistema& s) {
     cout << "Veja a rota na opcao 4 e finalize na opcao 5.\n";
 }
 
-//  Visualizar mapa de conexões / rota calculada
+//  rota calculada
 void visualizarMapa(Sistema& s) {
     if (s.filaPedidos.empty()) {
         cout << "Nenhum pedido na fila (use a opcao 3).\n";
