@@ -54,7 +54,7 @@ struct Sistema {
     IndicePratos indicePratos;          // lista de pratos; cada prato tem sua lista de restaurantes
     Cliente cliente;
     string pratoEscolhido;              // definido na opção 2
-    queue<Pedido> filaPedidos;          // pedidos aguardando conclusão (FIFO)
+    queue<Pedido> filaPedidos;          // pedidos aguardando conclusão
     stack<Pedido> historico;            // pedidos finalizados (último em cima)
     int proximoIdPedido = 1;
 };
