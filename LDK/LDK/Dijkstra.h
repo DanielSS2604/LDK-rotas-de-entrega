@@ -1,7 +1,3 @@
-// Dijkstra.h
-// Algoritmo de Dijkstra: menor caminho de UM nó de origem para TODOS os outros nós do grafo (pesos não-negativos).
-// Agora é uma CLASSE: ao criar o objeto, o algoritmo já roda e guarda as respostas.
-// Uso:  Dijkstra d(grafo, origem);   d.distanciaAte(v);   d.caminhoAte(v);
 
 #ifndef DIJKSTRA_H
 #define DIJKSTRA_H
