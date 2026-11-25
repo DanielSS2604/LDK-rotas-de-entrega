@@ -1,4 +1,4 @@
-// Persistencia.cpp
+
 #include "Persistencia.h"
 
 #include <algorithm>    // std::reverse
