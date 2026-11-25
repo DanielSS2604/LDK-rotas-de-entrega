@@ -288,7 +288,7 @@ int main() {
     s.restaurantes = carregarRestaurantes("dados/restaurantes.csv");
     if (s.restaurantes.empty()) { cerr << "Nenhum restaurante carregado.\n"; return 1; }
 
-    // Indexa na tabela hash: para cada prato de cada restaurante, guarda o id do restaurante
+    // guarda o id do restaurante
     // Usamos a POSICAO no vetor (i), nao o id do CSV, porque o resto do codigo
     // acessa s.restaurantes[id]. Assim nunca sai do vetor, mesmo que o CSV comece em 1.
     for (size_t i = 0; i < s.restaurantes.size(); i++)
