@@ -13,7 +13,7 @@ std::vector<std::string> Grafo::dividirLinha(const std::string& linha) {
     std::stringstream ss(linha);
     std::string campo;
     while (std::getline(ss, campo, ';')) {
-        // Remove '\r' que aparece em arquivos criados no Windows (CRLF)
+        // Remove '\r' que aparece em arquivos 
         if (!campo.empty() && campo.back() == '\r') campo.pop_back();
         campos.push_back(campo);
     }
