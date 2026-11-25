@@ -270,7 +270,7 @@ void exibirMenu(const Sistema& s) {
     cout << "1. Cadastrar localizacao do cliente\n"
          << "2. Fazer pedido (escolher tipo de prato)\n"
          << "3. Buscar restaurante mais proximo com o prato desejado\n"
-         << "4. Visualizar mapa de conexoes / rota calculada\n"
+         << "4. Rota calculada\n"
          << "5. Calculo do custo da rota\n"
          << "6. Exibir historico de pedidos\n"
          << "7. Sair\n";
