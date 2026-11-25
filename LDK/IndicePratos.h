@@ -1,13 +1,4 @@
-// ============================================================
-// IndicePratos.h
-// Substitui a TabelaHash usando LISTAS:
-//   - uma lista de pratos (sempre em ordem alfabética);
-//   - cada prato tem a sua própria lista com os ids dos
-//     restaurantes que servem esse prato.
-//
-// Os métodos têm os mesmos nomes da TabelaHash (inserir, buscar,
-// chaves, tamanho), então o main quase não muda.
-// ============================================================
+
 #ifndef INDICE_PRATOS_H
 #define INDICE_PRATOS_H
 
