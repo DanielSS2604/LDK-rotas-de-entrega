@@ -1,7 +1,5 @@
-// main.cpp
-// O main só cria o objeto do sistema e manda ele trabalhar.
-// Toda a lógica está dentro da classe SistemaEntregas.
 
+// O main só cria o objeto do sistema e manda ele trabalhar.
 #include "SistemaEntregas.h"
 
 int main() {
