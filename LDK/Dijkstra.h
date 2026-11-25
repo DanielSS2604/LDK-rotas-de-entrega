@@ -7,20 +7,21 @@
 #include <vector>       
 #include "Grafo.h"      // Precisamos da classe Grafo, que é o mapa (locais e ruas)
 
+// é um "pacote de respostas". guardando tudo q descobrimos
 struct ResultadoDijkstra {
 
-    //IFN signidica "infinito", se um no não for alcançável, a distância dele será INF(não tem caminho para ele).
-    // constexper significa q o compilador ja sabe o valor antes de rodar o programa
+    //INF signiica "infinito", se um no não for alcançável, a distância dele será INF(não tem caminho para ele).
+    // constexpr significa q o compilador ja sabe o valor antes de rodar o programa
     //static = "uma so copia, compartilha por todos"
     static constexpr double INF = 1e18; 
 
     // dist[v] = é a menor distancia conhecida da origem até o nó v
-    //ex: dist[2]= 2.7m, significa q a menor distancia da origem até o nó 2 é 2.7 metros
+    //ex: dist[2]= 320.0 -> o caminho mais curto até o nó 5 tem 320 m.
     std::vector<double> dist;
 
     // anterior[v] = nó que vem imediatamente ANTES de v no caminho mínimo.
     // Serve para reconstruir a rota.
-    //caso o anterior[v]= -1, significa q é a prorpia origem, ou anterior[v] n tem caminho para a origem
+    // -1 significa "sem anterior": é a própria origem ou um nó que não foi alcançado.
     std::vector<int> anterior;
 
     // Retorna true se o nó v foi alcançado (se dist[v] ainda não é "infinito").
