@@ -23,9 +23,6 @@ private:
     static std::vector<std::string> dividirLinha(const std::string& linha);
 
 public:
-    // Distância em metros entre duas coordenadas (fórmula de Haversine)
-    static double haversine(double lat1, double lon1, double lat2, double lon2);
-
     // ---- Construção do grafo ----
     int adicionarLocal(const Localizacao& l);          // retorna o id
     bool adicionarAresta(int a, int b, double peso);   // bidirecional; false se inválida
@@ -33,7 +30,7 @@ public:
     // ---- Leitura de arquivos CSV ----
     // locais.csv  : id;nome;tipo;lat;lon
     bool carregarLocais(const std::string& caminho);
-    // arestas.csv : id_origem;id_destino;distancia_m  (se 0 ou vazio, usa Haversine)
+    // arestas.csv : id_origem;id_destino;distancia_m  (distancia obrigatoria e > 0)
     bool carregarArestas(const std::string& caminho);
 
     // ---- Consultas ----
