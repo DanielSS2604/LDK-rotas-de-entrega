@@ -1,7 +1,4 @@
-// ============================================================
-// Restaurante.h
-// Um restaurante (franquia) vinculado a um nó do grafo.
-// ============================================================
+
 #ifndef RESTAURANTE_H
 #define RESTAURANTE_H
 
